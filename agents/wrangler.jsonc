@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "rig-agents",
+  "main": "worker.bundle.js",
+  "compatibility_date": "2025-01-01",
+  "observability": { "enabled": true },
+  "vars": {
+    "MODEL_BASE_URL": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "MODEL_NAME_PULSE": "gemini-flash-lite-latest",
+    "MODEL_NAME_TEST": "gemini-flash-latest"
+  }
+}

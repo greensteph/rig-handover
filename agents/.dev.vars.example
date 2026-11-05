@@ -1,0 +1,4 @@
+# Copy to .dev.vars for local `wrangler dev`. Never commit .dev.vars.
+OWNER_CODE="own-..."
+PING_KEY="whsec_..."
+MODEL_API_KEY="..."
